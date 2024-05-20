@@ -10,9 +10,11 @@ const data = {
 	password: 'admin97',
 };
 
-writeFile(data);
+// writeFile(data);
 
 // const __filename = fileURLToPath(import.meta.url);
 // const __dirname = path.dirname(__filename);
 
 // console.log(...data);
+const result = readFile();
+console.log(result);

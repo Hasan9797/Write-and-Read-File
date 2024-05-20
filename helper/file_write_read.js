@@ -50,5 +50,5 @@ export const writeFile = async data => {
 // };
 
 export const readFile = () => {
-	return fs.readFileSync(path.join(dataDir, 'data.json'), 'utf-8');
+	return JSON.parse(fs.readFileSync(path.join(dataDir, 'data.json'), 'utf-8'));
 };
