@@ -4,13 +4,11 @@ import fs from 'fs';
 
 import { fileURLToPath } from 'url';
 
-const data = [
-	{
-		ip: '127.0.0.1',
-		login: 'admin',
-		password: 'admin97',
-	},
-];
+const data = {
+	ip: '127.0.0.1',
+	login: 'admin',
+	password: 'admin97',
+};
 
 writeFile(data);
 
